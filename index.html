@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSEN ARAFAT | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+</head>
+
+<body class="bg-gray-50" id="top">
+
+<!-- Scroll To Top Button -->
+    <a href="#top" style="
+        position:fixed;
+        bottom:30px;
+        right:30px;
+        width:55px;
+        height:55px;
+        background:#2563eb;
+        color:white;
+        font-size:22px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        text-decoration:none;
+        box-shadow:0 0 10px rgba(37,99,235,0.6),0 0 25px rgba(37,99,235,0.4);
+        transition:0.3s;
+        z-index:999;
+        ">
+
+        ↑
+
+    </a>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="text-xl font-bold text-blue-600">HOSEN ARAFAT</a>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#education" class="nav-link text-gray-700 hover:text-blue-600">Education</a>
+                    <a href="#award" class="nav-link text-gray-700 hover:text-blue-600">Award</a>
+                    <a href="#certificate" class="nav-link text-gray-700 hover:text-blue-600">Certificate</a>
+                    <a href="#project" class="nav-link text-gray-700 hover:text-blue-600">Project</a>
+                    <a href="#experience" class="nav-link text-gray-700 hover:text-blue-600">Experience</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600">Contact</a>
+                    <button id="theme-toggle" class="text-gray-700 hover:text-blue-600 transition duration-300"
+                        aria-label="Toggle theme">
+                        <svg id="theme-toggle-dark-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                        <svg id="theme-toggle-light-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="md:hidden flex items-center space-x-4">
+                    <button id="theme-toggle-mobile" class="text-gray-700 hover:text-blue-600 transition duration-300"
+                        aria-label="Toggle theme">
+                        <svg id="theme-toggle-dark-icon-mobile" class="hidden h-6 w-6" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                        </svg>
+                        <svg id="theme-toggle-light-icon-mobile" class="hidden h-6 w-6" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                                fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <button id="menu-toggle" class="text-gray-700 hover:text-blue-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Home</a>
+                <a href="#about"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">About</a>
+                <a href="#education"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Education</a>
+                <a href="#award"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Award</a>
+                <a href="#certificate"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Certificate</a>
+                <a href="#project"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Project</a>
+                <a href="#experience"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Experience</a>
+                <a href="#contact"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
+                        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">I'm <span
+                                class="text-blue-600">HOSEN ARAFAT</span></h1>
+                    </h1>
+
+
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">Deeply Passionate about advancing Artificial
+                        Intelligence, Image Computing, Image Processing, Machine Learning, Deep Learning, Computer
+                        Vision, with a strong desire to continuously learn, conduct impactful research, and publish
+                        high-quality scientific papers throughout my Master's and PhD journey.</p>
+
+                    <!-- AI Skills Tags -->
+                    <div class="flex flex-wrap gap-3 mb-8">
+
+                        <span class="skill-badge px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm">Artificial
+                            Intelligence</span>
+                        <span class="skill-badge px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm">Image
+                            Computing</span>
+                        <span class="skill-badge px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm">Image
+                            Processing</span>
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">Machine
+                            Learning</span>
+                        <span class="skill-badge px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm">Deep
+                            Learning</span>
+                        <span class="skill-badge px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm">Computer
+                            Vision</span>
+
+                    </div>
+
+                    <div class="flex flex-wrap gap-4">
+
+                        <a href="#project"
+                            class="skill-badge px-6 py-3 bg-blue-900 text-white rounded-lg hover:bg-blue-800 transition duration-300 shadow-lg">
+                            View Projects <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- Image-->
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative flex justify-center items-center">
+                        <div
+                            class="absolute w-96 h-96 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-xl opacity-40">
+                        </div>
+
+                        <div
+                            class="relative w-80 h- md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-2xl floating">
+
+                            <img src="assets/img/HOSEN ARAFAT.jpg" alt="HOSEN ARAFAT"
+                                class="w-full h-full object-cover rounded-full">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">About</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <div class="bg-blue-50 p-6 rounded-xl shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Personal Info</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-user-alt text-blue-600 mr-3"></i>
+                                <span class="text-gray-700">HOSEN ARAFAT</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-blue-600 mr-3"></i>
+                                <span class="text-gray-700">Dhaka, Bangladesh</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-blue-600 mr-3"></i>
+                                <span class="text-gray-700">hosenarafat@126.com</span>
+                            
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fab fa-linkedin text-blue-600 mr-3"></i>
+                                <a href="https://www.linkedin.com/in/arafathosense/" target="_blank"
+                                    class="text-gray-700 hover:text-blue-600">linkedin.com/in/arafathosense</a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fab fa-github text-blue-600 mr-3"></i>
+                                <a href="https://github.com/arafathosense" target="_blank"
+                                    class="text-gray-700 hover:text-blue-600">github.com/arafathosense</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Career Summary</h3>
+                    <p class="text-gray-600 mb-6">
+                        Building intelligent systems powered by Artificial Intelligence, Image Computing, Image
+                        Processing, Machine Learning, Deep Learning, Computer Vision.
+                        Passionate about learning every day, exploring new ideas, and transforming research into
+                        real-world solutions.
+                        Focused on developing advanced AI technologies that enable machines to understand, learn, and
+                        make smarter decisions for the future.
+                    </p>
+
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Skills</h3>
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Python</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">OpenCV</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">TensorFlow</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">NumPy</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Pandas</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Keras</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Matplotlib</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">PyTorch</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Scikit-learn</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Seaborn</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">CNNs</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">YOLO</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Radar</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">LiDAR</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Html</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">CSS</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">JavaScript</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">C++</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">R</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">MySQL</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">MongoDB</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Node.js</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">AWS</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Git/GitHub</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">CI/CD</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Jupyter
+                            Notebook</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Anaconda</span>
+                        <span class="skill-badge bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Google Colab</span>
+                    </div>
+
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Languages</h3>
+                    <div class="flex flex-wrap languages">
+                        <div class="flex items-center">
+                            <div class="w-24 font-medium text-gray-700">Bengli</div>
+                            <div class="text-sm text-gray-500">Native</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-24 font-medium text-gray-700">English</div>
+                            <div class="text-sm text-gray-500">Fluent</div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-24 font-medium text-gray-700">Chinese</div>
+                            <div class="text-sm text-gray-500">(HSK 4): Listening 78 | Reading 89 | Writing 98 | Total
+                                265 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Education -->
+    <section id="education" class="py-24 bg-gradient-to-r from-blue-50 to-indigo-100">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <!-- Title -->
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">🎓 Education</h2>
+            </div>
+
+            <!-- Row Cards -->
+            <div class="space-y-8">
+
+                <!-- University -->
+                <div
+                    class="flex items-center justify-between bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition">
+
+                    <div class="flex items-center gap-6">
+
+                        <div class="text-4xl bg-blue-100 w-16 h-16 flex items-center justify-center rounded-full">
+                            🎓
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-xl font-bold text-gray-800">
+                                B.Sc in Software Engineering
+                            </h3>
+
+                            <p class="text-blue-600 font-semibold">
+                                Anhui University of Technology
+                            </p>
+
+                            <p class="text-gray-500">
+                                GPA: 3.90 / 4.50
+                            </p>
+
+                            <div class="flex gap-2 mt-2 flex-wrap">
+
+                                <span class="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-xs">
+                                    Engineering
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-gray-600 font-medium">
+                        2019 – 2023 | China
+                    </div>
+
+                </div>
+
+                <!-- College -->
+                <div
+                    class="flex items-center justify-between bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition">
+
+                    <div class="flex items-center gap-6">
+
+                        <div class="text-4xl bg-green-100 w-16 h-16 flex items-center justify-center rounded-full">
+                            🏫
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-xl font-bold text-gray-800">
+                                Higher Secondary Certificate
+                            </h3>
+
+                            <p class="text-green-600 font-semibold">
+                                Sherwood In't (Pvt) College
+                            </p>
+
+                            <p class="text-gray-500">
+                                GPA: 4.58 / 5.00
+                            </p>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-xs">
+                                Science
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-gray-600 font-medium">
+                        2016 – 2018 | Bangladesh
+                    </div>
+
+                </div>
+
+                <!-- School -->
+                <div
+                    class="flex items-center justify-between bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition">
+
+                    <div class="flex items-center gap-6">
+
+                        <div class="text-4xl bg-purple-100 w-16 h-16 flex items-center justify-center rounded-full">
+                            📚
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-xl font-bold text-gray-800">
+                                Secondary School Certificate
+                            </h3>
+
+                            <p class="text-purple-600 font-semibold">
+                                Fulbari Hamidia Dhakil Madrasa
+                            </p>
+
+                            <p class="text-gray-500">
+                                GPA: 4.78 / 5.00
+                            </p>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-600 rounded-full text-xs">
+                                Science
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="text-gray-600 font-medium">
+                        2011 – 2016 | Bangladesh
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Awards -->
+    <section id="award" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Title -->
+            <div class="text-center mb-16">
+                <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">🏆 Award</h2>
+            </div>
+
+            <!-- Awards Grid -->
+            <div class="grid md:grid-cols-3 gap-10">
+
+                <!-- Award Card -->
+                <div
+                    class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-3 transition duration-300">
+
+                    <img src="assets/img/award2.jpg" class="w-full h-52 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center mb-4">
+
+                            <div
+                                class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-xl mr-3 shadow-md group-hover:scale-110 transition">
+                                🏆
+                            </div>
+
+                            <h3 class="text-xl font-semibold text-gray-800">
+                                AHUT Scholarship
+                            </h3>
+
+                        </div>
+
+                        <p class="text-gray-600 mb-3">
+                            Based on my academic performance during the 2021–2022 academic year, I was awarded the
+                            First-Class AHUT Scholarship by Anhui University of Technology in recognition of outstanding
+                            academic achievement.
+                        </p>
+
+                        <span class="text-sm bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">
+                            2021/2022
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Award Card -->
+                <div
+                    class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-3 transition duration-300">
+
+                    <img src="assets/img/award2.jpg" class="w-full h-52 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center mb-4">
+
+                            <div
+                                class="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center text-xl mr-3 shadow-md group-hover:scale-110 transition">
+                                🥇
+                            </div>
+
+                            <h3 class="text-xl font-semibold text-gray-800">
+                                AHUT Scholarship
+                            </h3>
+
+                        </div>
+
+                        <p class="text-gray-600 mb-3">
+                            Based on my academic performance during the 2020–2021 academic year, I was awarded the
+                            First-Class AHUT Scholarship by Anhui University of Technology in recognition of outstanding
+                            academic achievement.
+                        </p>
+
+                        <span class="text-sm bg-green-100 text-green-700 px-3 py-1 rounded-full">
+                            2020/2021
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Award Card -->
+                <div
+                    class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-3 transition duration-300">
+
+                    <img src="assets/img/award2.jpg" class="w-full h-52 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center mb-4">
+
+                            <div
+                                class="w-12 h-12 bg-purple-400 rounded-full flex items-center justify-center text-xl mr-3 shadow-md group-hover:scale-110 transition">
+                                🏅
+                            </div>
+
+                            <h3 class="text-xl font-semibold text-gray-800">
+                                AHUT Scholarship
+                            </h3>
+
+                        </div>
+
+                        <p class="text-gray-600 mb-3">
+                            Based on my academic performance during the 2019–2020 academic year, I was awarded the
+                            Second-Class AHUT Scholarship by Anhui University of Technology in recognition of
+                            outstanding academic achievement.
+                        </p>
+
+                        <span class="text-sm bg-purple-100 text-purple-700 px-3 py-1 rounded-full">
+                            2019/2020
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Certificate -->
+    <section id="certificate" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">📜 Certificate</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Certificate -->
+                <a href="https://courses.cognitiveclass.ai/certificates/4f275e6b50894420b897202c06448a43"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Machine Learning - Dimensionality Reduction
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 19, 2025
+                    </p>
+
+                </a>
+
+                <a href="https://courses.cognitiveclass.ai/certificates/f574c9c0932f4c01ba7c7af8fb420640"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Cancer Image Detection With PyTorch
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 17, 2025
+                    </p>
+
+                </a>
+
+                <a href="https://courses.cognitiveclass.ai/certificates/1d780f165dbd49329ddd5909e9302db" target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Build an IoT Blockchain Network for a Supply Chain
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 15, 2025
+                    </p>
+
+                </a>
+
+
+                <a href="https://cognitiveclass.ai/certificates/bc530c00-9382-4d79-8484-f95dd6bec338" target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Agentic AI Hands-on
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 13, 2025
+                    </p>
+
+                </a>
+
+
+                <a href="https://courses.cognitiveclass.ai/certificates/3f0728ff68694f1eb52461edef3d68d8"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            IBM Cloud Essentials
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 17, 2023
+                    </p>
+
+                </a>
+
+
+                <a href="https://courses.cognitiveclass.ai/certificates/eeb6de49afcc4d33a457de21c4131fdd"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Deep Learning Fundamentals
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 17, 2023
+                    </p>
+
+                </a>
+
+                <a href="https://courses.cognitiveclass.ai/certificates/5f4ed1695e254d1796d888179718ca37"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Data Analysis with Python
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        September 4, 2023
+                    </p>
+
+                </a>
+
+
+                <a href="64dc7ee2cde7064749d08fdf" target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Introduction to JavaScript
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span
+                            class="skill-badge px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm">BOHUBRIHI</span>
+                        • August 16, 2023
+                    </p>
+
+                </a>
+                <a href="https://courses.cognitiveclass.ai/certificates/1d1e1c12182544579bebeac8897d5a75"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Data Visualization with Python
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        August 15, 2023
+                    </p>
+
+                </a>
+
+                <a href="64dc7ee2cde7064749d08fdf" target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            HTML5, CSS3 & Bootstrap 4 For Web Development
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span
+                            class="skill-badge px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm">BOHUBRIHI</span>
+                        • August 11, 2023
+                    </p>
+
+                </a>
+
+                <a href="https://courses.cognitiveclass.ai/certificates/8658e74c3bd845c9adba6366aae471e8"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Python 101 for Data Science
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span>•
+                        July 31, 2023
+                    </p>
+
+                </a>
+
+                <a href="https://courses.cognitiveclass.ai/certificates/58b3f0d2cc674537b2010e4ff8c3d3cf"
+                    target="_blank"
+                    class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition hover:-translate-y-1 border">
+
+                    <div class="flex items-center mb-3">
+
+                        <div
+                            class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-800">
+                            Machine Learning with Python
+                        </h4>
+
+                    </div>
+
+                    <p class="text-sm text-gray-600">
+                        <span class="skill-badge px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm">IBM</span> •
+                        July 20, 2023
+                    </p>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project-->
+    <section id="project" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">Project</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style="margin-bottom:2rem">
+
+
+                <!-- Project 1 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/1.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2"> Trajectory Forecast Multi Object Tracking
+                        </h3>
+                        <p class="text-gray-600 mb-4">Trajectory Forecast is a lightweight, modular extension built on
+                            top of Ultralytics YOLO that enables real-time multi-object tracking with future motion
+                            prediction. It combines detection, tracking, motion history modeling, and velocity-based
+                            forecasting into a unified pipeline that can be used both as a command-line tool and as a
+                            Python library.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">OpenCV-Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Ultralytics</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">NumPy</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Matplotlib</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Pillow</span>
+
+                        </div>
+                        <a href="https://github.com/arafathosense/Trajectory-Forecast-Multi-Object-Tracking"
+                            target="_blank" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/2.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Traffic Analysis</h3>
+                        <p class="text-gray-600 mb-4">Object Detection with oriented boxes using the off-the-shelf
+                            YoloV8s-OBB model from Ultralytics compiled and running on the accelerator. It implements an
+                            object detection pipeline for oriented bounding boxes (OBB) where Objects are detected in an
+                            image. Bounding boxes and keypoints are generated to represent detected objects. The
+                            bounding boxes and keypoints are processed for further use in downstream tasks.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">OpenCV-Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">PyQt5</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">YOLO</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Object Detection</span>
+
+                        </div>
+                        <a href="https://github.com/arafathosense/Traffic-Analysis" target="_blank"
+                            class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/3.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Vehicle Detection</h3>
+                        <p class="text-gray-600 mb-4">The Vehicle Detection project demonstrates how to perform
+                            real-time vehicle detection using a trained vehicle-detection model. The system processes
+                            images or video streams and identifies vehicles by detecting their positions within each
+                            frame. This project is designed to help developers and researchers quickly understand how to
+                            set up and run a vehicle detection pipeline for applications such as traffic monitoring,
+                            intelligent transportation systems, and smart city solutions.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">OpenCV</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">NumPy</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">TensorFlow</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Pytorch</span>
+                        </div>
+                        <a href="https://github.com/arafathosense/Vehicle-Detection" target="_blank"
+                            class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <!-- Project 4 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/4.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Advanced Lane Detection</h3>
+                        <p class="text-gray-600 mb-4">The Advanced Lane Detection is a computer vision–based project
+                            designed to detect and track road lane markings using image processing and classical
+                            computer vision techniques. The system processes road images and video streams to identify
+                            lane boundaries in real time.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">OpenCv</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">NumPy</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Matplotlib</span>
+
+                        </div>
+                        <a href="https://github.com/arafathosense/Advanced-Lane-Detection" target="_blank"
+                            class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/5.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Car Parking Space Detection</h3>
+                        <p class="text-gray-600 mb-4">Deep learning and Computer vision to monitor parking lots in
+                            real-time. It detects cars using the YOLOv8 object detection model, highlights occupied and
+                            free parking spaces, and provides a live count of available slots. This project can help
+                            automate parking management, improve efficiency, and reduce time spent searching for
+                            parking.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">OpenCv</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">NumPy</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">YOLO</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Matplotlib</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Deep Learning</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Computer Vision</span>
+                        </div>
+                        <a href="https://github.com/jihadakbr/car-parking-space-detection" target="_blank"
+                            class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div
+                    class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-gray-50 flex items-center justify-center p-8 border-b">
+                        <img src="assets/img/6.png" class="max-h-64 object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Face generation GAN</h3>
+                        <p class="text-gray-600 mb-4">Generative Adversarial Network. A GAN takes a different approach
+                            to learning than other types of neural networks(NN). GANs algorithmic architectures that use
+                            two neural networks called a Generator and a Discriminator, which “compete” against one
+                            another to create the desired result.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">TensorFlow</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Keras</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Image
+                                Classification</span>
+                            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">Image Processing</span>
+                        </div>
+                        <a href="https://github.com/arafathosense/Face-Generation-GAN" target="_blank"
+                            class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            View Project <i class="fas fa-external-link-alt ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Experience -->
+    <section id="experience" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">Experience</h2>
+            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Gallery 27</h3>
+                    <span class="text-blue-600 font-medium">October 2023 to February 2025</span>
+                </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                    <li>
+                        I worked as a System and Network Administrator at Gallery 27 in
+                        the IT and Systems Department. In this role, I managed computer hardware and software,
+                        maintained network
+                        systems, provided IT support, and ensured data security and system efficiency. This experience
+                        strengthened my
+                        technical, problem-solving, and communication skills, while also enhancing my teamwork,
+                        professional
+                        responsibility, and understanding of how IT systems support organizational operations. The
+                        practical knowledge and
+                        skills I gained have prepared me well for advanced studies and future professional challenges in
+                        technology and
+                        engineering.
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-12">Get In Touch</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-8">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+
+                                <h4 class="font-medium text-gray-800">Location</h4>
+                                <p class="text-gray-600">Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">Email</h4>
+                                <p class="text-gray-600">hosenarafat@126.com</p>
+                            </div>
+                        </div>
+
+                        <!-- Facebook -->
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">Facebook</h4>
+                                <a href="https://facebook.com/arafathosense" target="_blank"
+                                    class="text-gray-600 hover:text-blue-600">facebook.com/arafathosense</a>
+                            </div>
+                        </div>
+
+                        <!-- Instagram -->
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">Instagram</h4>
+                                <a href="https://instagram.com/_arafat_hosen_/" target="_blank"
+                                    class="text-gray-600 hover:text-blue-600">instagram.com/_arafat_hosen_/</a>
+                            </div>
+                        </div>
+
+                        <!-- Youtube -->
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">YouTube</h4>
+                                <a href="https://www.youtube.com/@Nomadic_Arafat" target="_blank"
+                                    class="text-gray-600 hover:text-blue-600">youtube.com/@Nomadic_Arafat</a>
+                            </div>
+                        </div>
+
+                        <!-- Youtube -->
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/arafathosense" target="_blank"
+                                    class="text-gray-600 hover:text-blue-600">linkedin.com/in/arafathosense</a>
+                            </div>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="flex items-start">
+                            <div
+                                class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-800">GitHub</h4>
+                                <a href="https://github.com/arafathosense" target="_blank"
+                                    class="text-gray-600 hover:text-blue-600">github.com/arafathosense</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Send Me a Message</h3>
+                    <!-- Static Form -->
+                    <form action="https://formspree.io/f/xldbngwp" method="POST"
+                        style="max-width: 500px; margin: auto;">
+                        <label>
+                            Name:
+                            <input type="text" name="name" placeholder="Enter your name" required
+                                style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </label>
+                        <label>
+                            Email:
+                            <input type="email" name="email" placeholder="Enter your email" required
+                                style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </label>
+                        <label>
+                            Subject:
+                            <input type="text" name="subject" placeholder="Enter the subject" required
+                                style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </label>
+                        <label>
+                            Message:
+                            <textarea name="message" placeholder="Write your message" rows="4" required
+                                style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                        </label>
+                        <button type="submit"
+                            style="background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Attractive Footer -->
+    <footer class="relative bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white pt-12 pb-8 overflow-hidden">
+
+        <!-- Glow background -->
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_#3b82f6,_transparent_70%)]"></div>
+
+        <div class="relative max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-3 gap-10 items-center">
+
+                <!-- Left: Name + Role -->
+                <div>
+                    <h2 class="text-2xl font-bold tracking-wide">HOSEN ARAFAT</h2>
+
+                    <p class="text-gray-500 text-sm mt-3 max-w-sm">
+                        Research in Artificial Intelligence, Image Computing, Image Processing, Machine Learning, Deep
+                        Learning, Computer Vision, and AI systems. Building intelligent solutions and publishing
+                        research-driven projects.
+                    </p>
+                </div>
+                <!-- Bangladesh Flag Section -->
+                <div style="margin-top:40px; text-align:center;">
+                    <div style="
+        width:260px;
+        height:150px;
+        margin:auto;
+        position:relative;
+        background:#006a4e;
+        border-radius:4px;
+        box-shadow:0 10px 25px rgba(0, 0, 0, 0.2);
+    ">
+                        <div style="
+            width:90px;
+            height:90px;
+            background:#f42a41;
+            border-radius:50%;
+            position:absolute;
+            left:70px;
+            top:50%;
+            transform:translateY(-50%);
+        ">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Right: Social Icons -->
+                <div class="flex justify-center md:justify-end space-x-5">
+
+                    <a href="https://www.facebook.com/arafathosense" target="_blank"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-blue-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/_arafat_hosen_/" target="_blank"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-blue-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/Nomadic_Arafat" target="_blank"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-red-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/arafathosense" target="_blank"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-blue-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/arafathosense" target="_blank"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-gray-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+
+
+                    <a href="mailto:hosenarafat@126.com"
+                        class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-700 hover:bg-green-600 transition duration-300 transform hover:scale-110">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+
+                <p>
+                    © 2026 HOSEN ARAFAT — All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
