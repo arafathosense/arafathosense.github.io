@@ -156,56 +156,82 @@
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-10 md:mb-0">
 
-                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-                        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">I'm <span
-                                class="text-blue-600">HOSEN ARAFAT</span></h1>
-                    </h1>
+
+                    <!-- Add this section below the Buttons -->
+                    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                        <!-- Research Focus -->
+                        <div
+                            class="hero-info-box bg-gradient-to-br from-pink-200 to-green-200 border border-violet-200">
+                            <div class="hero-info-icon bg-gradient-to-r from-blue-500 to-fuchsia-500">
+                                <i class="fa-solid fa-flask text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="hero-info-title text-violet-800">Research Interest</h3>
+                                <p class="hero-info-text">
+                                    Machine Learning and Knowledge Discovery
+                                </p>
+                            </div>
+                        </div>
 
 
-                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">Deeply Passionate about advancing Artificial
-                        Intelligence, Image Computing, Image Processing, Machine Learning, Deep Learning, Computer
-                        Vision, with a strong desire to continuously learn, conduct impactful research, and publish
-                        high-quality scientific papers throughout my Master's and PhD journey.</p>
-
-                    <!-- AI Skills Tags -->
-                    <!-- Font Awesome -->
-                    <link rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-                    <!-- AI Skills Tags -->
-                    <div class="flex flex-wrap gap-3 mb-8">
-
-                        <span
-                            class="skill-badge inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
-                            <i class="fa-solid fa-brain"></i>
-                            Artificial Intelligence
-                        </span>
-
-                        <span
-                            class="skill-badge inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
-                            <i class="fa-solid fa-microchip"></i>
-                            Image Computing
-                        </span>
-
-                        <span
-                            class="skill-badge inline-flex items-center gap-2 px-4 py-2 bg-pink-100 text-pink-700 rounded-full text-sm font-medium shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
-                            <i class="fa-solid fa-gears"></i>
-                            Machine Learning
-                        </span>
-
-                        <span
-                            class="skill-badge inline-flex items-center gap-2 px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-medium shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
-                            <i class="fa-solid fa-network-wired"></i>
-                            Deep Learning
-                        </span>
-
-                        <span
-                            class="skill-badge inline-flex items-center gap-2 px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium shadow-sm hover:-translate-y-1 hover:shadow-md transition duration-300">
-                            <i class="fa-solid fa-eye"></i>
-                            Computer Vision
-                        </span>
+                        <!-- Academic Goal -->
+                        <div
+                            class="hero-info-box bg-gradient-to-br from-violet-200 to-fuchsia-200 border border-violet-200">
+                            <div class="hero-info-icon bg-gradient-to-r from-violet-500 to-fuchsia-500">
+                                <i class="fa-solid fa-graduation-cap text-black"></i>
+                            </div>
+                            <div>
+                                <h3 class="hero-info-title text-violet-800">Academic Goal</h3>
+                                <p class="hero-info-text">
+                                    Research and publish high-quality scientific papers throughout my Master's and PhD
+                                    journey.
+                                </p>
+                            </div>
+                        </div>
 
                     </div>
+
+                    <style>
+                        .hero-info-box {
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 14px;
+                            padding: 18px;
+                            border-radius: 24px;
+                            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+                            transition: all 0.3s ease;
+                        }
+
+                        .hero-info-box:hover {
+                            transform: translateY(-4px);
+                            box-shadow: 0 18px 34px rgba(15, 23, 42, 0.10);
+                        }
+
+                        .hero-info-icon {
+                            width: 46px;
+                            height: 46px;
+                            border-radius: 16px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-shrink: 0;
+                            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+                        }
+
+                        .hero-info-title {
+                            font-size: 1rem;
+                            font-weight: 700;
+                            margin-bottom: 6px;
+                        }
+
+                        .hero-info-text {
+                            font-size: 0.92rem;
+                            line-height: 1.7;
+                            color: #4b5563;
+                        }
+                    </style>
+
 
                     <!-- Buttons -->
                     <div class="mt-8 flex flex-wrap gap-4">
@@ -263,6 +289,7 @@
 
 
                 <!-- Image-->
+
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative flex justify-center items-center">
                         <div
@@ -270,7 +297,7 @@
                         </div>
 
                         <div
-                            class="relative w-80 h- md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-2xl floating">
+                            class="relative w-40 h-40 md:w-80 md:h-80 rounded-full p-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-2xl floating">
 
                             <img src="assets/img/HOSEN ARAFAT.jpg" alt="HOSEN ARAFAT"
                                 class="w-full h-full object-cover rounded-full">
@@ -327,7 +354,7 @@
                                     </span>
 
                                     <h3 class="mt-5 text-3xl md:text-4xl font-extrabold text-gray-900">
-                                        HOSEN ARAFAT
+                                        Hello, I'm HOSEN ARAFAT
                                     </h3>
                                     <p
                                         class="mt-2 text-lg font-medium bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text text-transparent">
@@ -358,36 +385,6 @@
 
                             <!-- Small Sections -->
                             <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
-
-                                <!-- Master's Plan -->
-                                <div
-                                    class="mini-card min-h-[260px] rounded-3xl p-6 bg-gradient-to-br from-cyan-100 to-sky-100 border border-cyan-200 shadow-md flex flex-col hover:-translate-y-1 transition duration-300">
-                                    <div
-                                        class="w-14 h-14 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center mb-4">
-                                        <i class="fa-solid fa-microscope text-white text-xl"></i>
-                                    </div>
-                                    <h4 class="text-xl font-bold text-violet-700 mb-3">Research Interest</h4>
-                                    <p class="text-base text-gray-700 leading-7 text-left">
-                                        Artificial Intelligence, Image Computing, Image Processing, Machine Learning,
-                                        Deep Learning, Computer Vision, and Smart Systems.
-                                    </p>
-
-                                </div>
-
-                                <!-- Research Interest -->
-                                <div
-                                    class="mini-card min-h-[260px] rounded-3xl p-6 bg-gradient-to-br from-violet-100 to-fuchsia-100 border border-violet-200 shadow-md flex flex-col hover:-translate-y-1 transition duration-300">
-                                    <div
-                                        class="w-14 h-14 rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 flex items-center justify-center mb-4">
-                                        <i class="fa-solid fa-user-graduate text-white text-xl"></i>
-                                    </div>
-                                    <h4 class="text-xl font-bold text-cyan-700 mb-3">Future Plan</h4>
-                                    <p class="text-base text-gray-700 leading-7 text-left">
-                                        Conduct impactful research and publish high-quality scientific papers
-                                        throughout
-                                        my Master's and PhD. journey.
-                                    </p>
-                                </div>
 
                             </div>
 
